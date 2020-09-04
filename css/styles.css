@@ -201,6 +201,10 @@ a:not([href]):hover {
     background-color: var(--warning);
 }
 
+.icons {
+    margin: 2% 1%;
+}
+
 pre,
 code,
 kbd,
