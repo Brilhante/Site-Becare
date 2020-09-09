@@ -197,9 +197,13 @@ a:not([href]):hover {
     text-decoration: none;
 }
 
-.icons.iconsFooter:hover {
+.icons:hover {
     background-color: var(--warning);
 }
+.iconsFooter:hover {
+    background-color: var(--warning);
+}
+
 
 .icons {
     margin: 0% 0.5%;
