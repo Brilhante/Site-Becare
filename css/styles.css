@@ -197,7 +197,7 @@ a:not([href]):hover {
     text-decoration: none;
 }
 
-.icons:hover {
+.icons.iconsFooter:hover {
     background-color: var(--warning);
 }
 
@@ -216,6 +216,7 @@ a:not([href]):hover {
 .alinhamento{
 text-align: end;
 width: 500px;
+
 
 }
 
