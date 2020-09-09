@@ -202,12 +202,13 @@ a:not([href]):hover {
 }
 
 .icons {
-    margin: 2% 1%;
+    margin: 0% 0.5%;
     width: 35px;
     height: 35px;
+    display: inline-flex;
 }
 .alinhamento{
-text-align: right;
+text-align: end;
 width: 500px;
 
 }
