@@ -82,14 +82,14 @@ body {
     background-color: #fff;
 }
 .logo {
-    max-width:75px;
-    max-height:75px;
+    max-width:95px;
+    max-height:95px;
     width: auto;
     height: auto;
 }
 .favicon-logo{
-    max-width:95px;
-    max-height:95px;
+    max-width:75px;
+    max-height:75px;
     width: auto;
     height: auto;
 }
