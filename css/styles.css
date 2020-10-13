@@ -212,9 +212,7 @@ a:not([href]):hover {
 .icons:hover {
     background-color: var(--warning);
 }
-.iconsFooter:hover {
-    background-color: var(--warning);
-}
+
 
 
 .icons {
@@ -222,12 +220,7 @@ a:not([href]):hover {
     width: 35px;
     height: 35px;
 }
-.iconsFooter {
-    margin: 0% 0.5%;
-    width: 35px;
-    height: 35px;
-    
-}
+
 .alinhamento{
 text-align: end;
 width: 500px;
