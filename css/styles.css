@@ -210,6 +210,9 @@ a:not([href]):hover {
 }
 
 .icons:hover {
+    opacity: 0.5;
+}
+.icons-footer:hover {
     background-color: var(--warning);
 }
 
