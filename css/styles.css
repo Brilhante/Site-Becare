@@ -221,6 +221,12 @@ a:not([href]):hover {
     height: 35px;
 }
 
+.icons-footer {
+    margin: 0% 0.2%;
+   
+    height: 35px;
+}
+
 .alinhamento{
 text-align: end;
 width: 500px;
