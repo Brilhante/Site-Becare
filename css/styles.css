@@ -10384,7 +10384,7 @@ header.masthead4 h1 {
 }
 
 @media (min-width: 992px) {
-    header.masthead {
+    header.masthead4 {
         height: 100vh;
         min-height: 40rem;
         padding-top: 4.5rem;
@@ -10399,9 +10399,38 @@ header.masthead4 h1 {
 }
 
 @media (min-width: 1200px) {
-    header.masthead h1 {
+    header.masthead4 h1 {
         font-size: 3.5rem;
     }
+}
+.fluid {
+    max-width: 110%;
+    height: auto;
+}
+
+.container1 {
+    position: relative;
+    width:100%;
+  }
+  p.paragrafo{ 
+    font-size: clamp(0.5em, 0.7em + 1vw, 1.5em);
+    color: red;
+    /*font-size: 24px;*/
+    position: absolute;
+    top: 60px;
+    left:10px;
+     
+  }
+ 
+  .linha{
+    display: flex;
+    flex-flow: row ;
+    }
+  .coluna-30 {
+    width: 30%;
+}
+.coluna-70 {
+    width: 70%;
 }
 
 .img1 {
