@@ -10295,82 +10295,10 @@ header.masthead h1 {
     }
 }
 
-header.masthead1 {
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem);
-    background: url("../assets/img/bg-masthead1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
-
-header.masthead1 h1 {
-    font-size: 2.25rem;
-}
-
-@media (min-width: 992px) {
-    header.masthead1 {
-        height: 100vh;
-        min-height: 40rem;
-        padding-top: 4.5rem;
-        padding-bottom: 0;
-    }
-    header.masthead1 p {
-        font-size: 1.15rem;
-    }
-    header.masthead1 h1 {
-        font-size: 3rem;
-    }
-}
-
-@media (min-width: 1200px) {
-    header.masthead1 h1 {
-        font-size: 3.5rem;
-    }
-}
-
-
-header.masthead4 {
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem);
-    background: linear-gradient(to bottom, rgba(175, 169, 164, 0.8) 0%, rgba(163, 153, 146, 0.8) 100%), url("../assets/img/bg-masthead4.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
-
-header.masthead4 h1 {
-    font-size: 2.25rem;
-}
-
-@media (min-width: 992px) {
-    header.masthead4 {
-        height: 100vh;
-        min-height: 40rem;
-        padding-top: 4.5rem;
-        padding-bottom: 0;
-    }
-    header.masthead4 p {
-        font-size: 1.15rem;
-    }
-    header.masthead4 h1 {
-        font-size: 3rem;
-    }
-}
-
-@media (min-width: 1200px) {
-    header.masthead4 h1 {
-        font-size: 3.5rem;
-    }
-}
 .st8a {
     background: url("../assets/img/becare-site8a.png");
     background-size: contain;
     padding-top: 50px;
-
-
 }
 
 .fluid {
@@ -10456,34 +10384,6 @@ header.masthead4 h1 {
 }
 .coluna-70 {
     width: 70%;
-}
-
-.img1 {
-    background: url("../assets/img/bg-masthead12.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-clip: border-box;
-    background-size: cover;
-    min-width: 400px;
-    height: 600px;
-}
-
-.img2 {
-    background: url("../assets/img/carousel-img2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-width: 400px;
-    height: 600px;
-}
-
-.img3 {
-    background: url("../assets/img/carousel-img3.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-width: 400px;
-    height: 600px;
 }
 
 #portfolio .container-fluid,
