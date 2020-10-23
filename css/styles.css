@@ -10330,49 +10330,6 @@ header.masthead1 h1 {
     }
 }
 
-header.masthead2 {
-    background: url("../assets/img/bg-masthead2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    height: 700px;
-}
-
-header.masthead3 {
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem);
-    background: url("../assets/img/bg-masthead3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
-
-header.masthead3 h1 {
-    font-size: 2.25rem;
-}
-
-@media (min-width: 992px) {
-    header.masthead3 {
-        height: 100vh;
-        min-height: 40rem;
-        padding-top: 4.5rem;
-        padding-bottom: 0;
-    }
-    header.masthead3 p {
-        font-size: 1.15rem;
-    }
-    header.masthead3 h1 {
-        font-size: 3rem;
-    }
-}
-
-@media (min-width: 1200px) {
-    header.masthead3 h1 {
-        font-size: 3.5rem;
-    }
-}
 
 header.masthead4 {
     padding-top: 10rem;
@@ -10408,6 +10365,13 @@ header.masthead4 h1 {
         font-size: 3.5rem;
     }
 }
+.st8a {
+    background: url("../assets/img/becare-site8a.png");
+    background-size: contain;
+    padding-top: 50px;
+
+
+}
 
 .fluid {
     max-width: 110%;
@@ -10417,6 +10381,23 @@ header.masthead4 h1 {
 .container1 {
     position: relative;
     width:100%;
+  }
+  p.paragrafo-st2{ 
+    font-size: clamp(0.5em, 0.7em + 1vw, 1.5em);
+    /*font-size: 24px;*/
+    position: absolute;
+    top: 10px;
+    left:10px;
+     
+  }
+
+  p.paragrafo-st3{ 
+    font-size: clamp(0.5em, 0.7em + 1vw, 1.5em);
+    /*font-size: 24px;*/
+    position: absolute;
+    top: 200px;
+    left:10px;
+     
   }
   p.paragrafo-st9{ 
     font-size: clamp(0.5em, 0.7em + 1vw, 1.5em);
