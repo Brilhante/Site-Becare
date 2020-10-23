@@ -10318,14 +10318,7 @@ header.masthead h1 {
      
   }
 
-  p.paragrafo-st2{ 
-    font-size: clamp(0.5em, 0.7em + 2vw, 2em);   
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    transform: translateY(-50%);  
-     
-  }
+  
 
   p.paragrafo-st3{ 
     font-size: clamp(0.5em, 0.7em + 2vw, 2em);   
