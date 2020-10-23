@@ -10392,10 +10392,10 @@ header.masthead4 h1 {
   }
 
   p.paragrafo-st3{ 
-    font-size: clamp(0.5em, 0.7em + 3vw, 2em);   
+    font-size: clamp(0.5em, 0.7em + 2vw, 2em);   
     position: absolute;
-    top: 60%;
-    left: 30%;
+    top: 80%;
+    left: 0%;
     transform: translateY(-50%);  
      
   }
