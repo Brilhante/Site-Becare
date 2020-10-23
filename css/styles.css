@@ -10310,13 +10310,6 @@ header.masthead h1 {
     position: relative;
     width:100%;
   }
-  p.paragrafo-st2{ 
-    font-size: clamp(0.5em, 0.4em + 1vw, 2em);
-    position: absolute;
-    top: 10px;
-    left:10px;
-     
-  }
 
   p.paragrafo-st2{ 
     font-size: clamp(0.5em, 0.4em + 2vw, 2em);   
