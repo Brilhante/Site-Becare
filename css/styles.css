@@ -10399,6 +10399,34 @@ header.masthead4 h1 {
     left:10px;
      
   }
+    /*caroulsel*/
+    p.paragrafo-st5{ 
+        font-size: clamp(0.5em, 0.7em + 1vw, 1.5em);
+        /*font-size: 24px;*/
+        position: absolute;
+        top: 10%;
+        left: 60%;
+        transform: translateY(-50%);
+         
+      }
+      p.paragrafo-st6{ 
+        font-size: clamp(0.5em, 0.7em + 1vw, 1.5em);
+        /*font-size: 24px;*/
+        position: absolute;
+        top: 80%;
+        left: 10%;
+        transform: translateY(-50%);
+         
+      }
+      p.paragrafo-st7{ 
+        font-size: clamp(0.5em, 0.7em + 1vw, 1.5em);
+        /*font-size: 24px;*/
+        position: absolute;
+        top: 80%;
+        left: 60%;
+        transform: translateY(-50%);
+      }
+      /*---------*/
   p.paragrafo-st9{ 
     font-size: clamp(0.5em, 0.7em + 1vw, 1.5em);
     /*font-size: 24px;*/
