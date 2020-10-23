@@ -10024,6 +10024,12 @@ a.text-light:focus {
 .text-dark {
     color: #343a40 !important;
 }
+.text-red {
+    color: #dc3545;
+}
+.text-yellow{
+    color: #eeff00;
+}
 
 a.text-dark:hover,
 a.text-dark:focus {
