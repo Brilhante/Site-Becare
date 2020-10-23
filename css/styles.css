@@ -10396,8 +10396,15 @@ header.masthead4 h1 {
     /*font-size: 24px;*/
     position: absolute;
     top: 200px;
-    left:10px;
-     
+    left:10px;   
+  }
+  p.paragrafo-st4{ 
+    font-size: clamp(0.5em, 0.7em + 3vw, 2em);
+    /*font-size: 24px;*/
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translateY(-50%);  
   }
     /*caroulsel*/
     p.paragrafo-st5{ 
