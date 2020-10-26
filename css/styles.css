@@ -10346,6 +10346,7 @@ header.masthead h1 {
         top: 10%;
         left: 60%;
         transform: translateY(-50%);
+        text-shadow: 2px 2px 2px #111;
          
       }
       p.paragrafo-st6{ 
