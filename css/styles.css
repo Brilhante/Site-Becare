@@ -10336,6 +10336,7 @@ header.masthead h1 {
     top: 60%;
     left: 30%;
     transform: translateY(-50%);  
+    text-shadow: 2px 2px 2px #111;
     
   }
     /*caroulsel*/
