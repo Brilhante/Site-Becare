@@ -10366,6 +10366,7 @@ header.masthead h1 {
       }
       /*---------*/
   p.paragrafo-st9{ 
+    background-color: #fff;
     font-size: clamp(0.5em, 0.7em + 1vw, 1.5em);
     position: absolute;
     top: 60px;
