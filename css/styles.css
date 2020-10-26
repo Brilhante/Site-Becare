@@ -10335,6 +10335,7 @@ header.masthead h1 {
     top: 60%;
     left: 30%;
     transform: translateY(-50%);  
+    text-shadow: 3px 8px 4px #111;
   }
     /*caroulsel*/
     p.paragrafo-st5{ 
