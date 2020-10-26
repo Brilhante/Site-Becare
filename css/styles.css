@@ -10317,6 +10317,7 @@ header.masthead h1 {
     top: 10%;
     left: 10%;
     transform: translateY(-50%);  
+    text-shadow: 6px 6px 4px #111;
      
   }
 
