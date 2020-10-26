@@ -10325,8 +10325,9 @@ header.masthead h1 {
     font-size: clamp(0.5em, 0.7em + 2vw, 2em);   
     position: absolute;
     top: 80%;
-    left: 0%;
+    left: 2%;
     transform: translateY(-50%);  
+    text-shadow: 3px 8px 4px #111;
      
   }
   p.paragrafo-st4{ 
@@ -10335,7 +10336,7 @@ header.masthead h1 {
     top: 60%;
     left: 30%;
     transform: translateY(-50%);  
-    text-shadow: 3px 8px 4px #111;
+    
   }
     /*caroulsel*/
     p.paragrafo-st5{ 
