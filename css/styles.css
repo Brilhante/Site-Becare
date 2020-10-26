@@ -10294,13 +10294,6 @@ header.masthead h1 {
         font-size: 3.5rem;
     }
 }
-
-.st8a {
-    background: url("../assets/img/becare-site8a.png");
-    background-size: contain;
-    padding-top: 50px;
-}
-
 .fluid {
     max-width: 100%;
     height: auto;
@@ -10365,6 +10358,14 @@ header.masthead h1 {
         transform: translateY(-50%);
       }
       /*---------*/
+      .st8a {
+        background: url("../assets/img/becare-site8a.png");
+        background-color: #fff;
+        background-size: contain;
+        padding-top: 50px;
+    
+    
+    }
   p.paragrafo-st9{ 
     background-color: #fff;
     font-size: clamp(0.5em, 0.7em + 1vw, 1.5em);
