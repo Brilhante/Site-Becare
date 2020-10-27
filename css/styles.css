@@ -10322,7 +10322,7 @@ header.masthead h1 {
     top: 80%;
     left: 2%;
     transform: translateY(-50%);  
-    text-shadow: 3px 8px 4px #111;
+    
      
   }
   p.paragrafo-st4{ 
@@ -10331,7 +10331,7 @@ header.masthead h1 {
     top: 60%;
     left: 30%;
     transform: translateY(-50%);  
-    text-shadow: 2px 2px 2px #111;
+    
     
   }
     /*caroulsel*/
@@ -10341,7 +10341,7 @@ header.masthead h1 {
         top: 10%;
         left: 60%;
         transform: translateY(-50%);
-        text-shadow: 2px 2px 2px #111;
+        
          
       }
       p.paragrafo-st6{ 
@@ -10370,10 +10370,11 @@ header.masthead h1 {
     }
   p.paragrafo-st9{ 
     background-color: #fff;
-    font-size: clamp(0.5em, 0.7em + 1vw, 1.5em);
+    font-size: clamp(1.7em, 1em + 1px, 1em);
     position: absolute;
     top: 60px;
     left:10px;
+    color: #f50270;
      
   }
  
