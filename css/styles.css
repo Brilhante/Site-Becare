@@ -9260,7 +9260,7 @@ header.masthead h1 {
         font-size: 1.15rem;
     }
     header.masthead h1 {
-        font-size: 3rem;
+        font-size: 3.4rem;
     }
 }
 
@@ -9281,6 +9281,10 @@ header.masthead h1 {
 .container1 {
     position: relative;
     width: 100%;
+}
+
+img.border-f {
+    border: 4px solid rgb(158, 156, 156);
 }
 
 
@@ -18660,7 +18664,7 @@ p.paragrafo-st9 {
     }
     
     header.masthead h1 {
-        font-size: 2.25rem;
+        font-size: 2.6rem;
     }
     
     @media (min-width: 992px) {
@@ -18674,7 +18678,7 @@ p.paragrafo-st9 {
             font-size: 1.15rem;
         }
         header.masthead h1 {
-            font-size: 3rem;
+            font-size: 3.4rem;
         }
     }
     
