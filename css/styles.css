@@ -9289,6 +9289,11 @@ header.masthead h1 {
     width: 100%;
 }
 
+
+h1.masthead{
+    text-align: initial;
+}
+
 p.paragrafo-st2 {
     font-size: clamp(0.5em, 0.4em + 2vw, 2em);
     position: absolute;
