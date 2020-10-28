@@ -9314,6 +9314,7 @@ p.paragrafo-st4 {
     top: 45%;
     left: 35%;
     transform: translateY(-50%);
+    text-align: left;
 }
 
 /*caroulsel*/
