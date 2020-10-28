@@ -9315,26 +9315,26 @@ p.paragrafo-st4 {
 /*caroulsel*/
 
 p.paragrafo-st5 {
-    font-size: clamp(0.5em, 0.7em + 1vw, 1.5em);
+    font-size: clamp(0.5em, 0.7em + 3vw, 2.5em);
     position: absolute;
-    top: 10%;
-    left: 60%;
+    top: 55%;
+    left: 5%;
     transform: translateY(-50%);
 }
 
 p.paragrafo-st6 {
-    font-size: clamp(0.5em, 0.7em + 1vw, 1.5em);
+    font-size: clamp(0.5em, 0.7em + 3vw, 2.5em);
     position: absolute;
-    top: 80%;
-    left: 10%;
+    top: 55%;
+    left: 5%;
     transform: translateY(-50%);
 }
 
 p.paragrafo-st7 {
-    font-size: clamp(0.5em, 0.7em + 1vw, 1.5em);
+    font-size: clamp(0.5em, 0.7em + 3vw, 2.5em);
     position: absolute;
-    top: 80%;
-    left: 60%;
+    top: 55%;
+    left: 5%;
     transform: translateY(-50%);
 }
 
