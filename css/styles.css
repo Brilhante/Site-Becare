@@ -9264,12 +9264,6 @@ header.masthead h1 {
     }
 }
 
-@media (min-width: 1200px) {
-    header.masthead h1 {
-        font-size: 3.5rem;
-    }
-}
-
 @font-face {
     font-family: Aurel bold;
     src: url(../assets/img/Aurel/Aurel\ bold.otf);
