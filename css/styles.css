@@ -9301,7 +9301,7 @@ p.paragrafo-st3 {
     font-size: clamp(0.5em, 0.7em + 2vw, 2em);
     position: absolute;
     top: 45%;
-    left: 51%;
+    left: 53%;
     transform: translateY(-50%);
 }
 
