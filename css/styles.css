@@ -9251,7 +9251,7 @@ header.masthead h1 {
     }
 }
 
-@media (min-width: 10px) and (max-width: 290px) {
+@media (min-width: 100px) and (max-width: 290px) {
     header.masthead {
         height: 100vh;
         min-height: 40rem;
@@ -9277,7 +9277,82 @@ header.masthead h1 {
         font-size: 1.15rem;
     }
     header.masthead h1 {
-        font-size: 1.2rem;
+        font-size: 1.24rem;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+    header.masthead {
+        height: 100vh;
+        min-height: 40rem;
+        padding-top: 4.5rem;
+        padding-bottom: 0;
+    }
+    header.masthead p {
+        font-size: 1.15rem;
+    }
+    header.masthead h1 {
+        font-size: 1.43rem;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    header.masthead {
+        height: 100vh;
+        min-height: 40rem;
+        padding-top: 4.5rem;
+        padding-bottom: 0;
+    }
+    header.masthead p {
+        font-size: 1.15rem;
+    }
+    header.masthead h1 {
+        font-size: 1.9rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    header.masthead {
+        height: 100vh;
+        min-height: 40rem;
+        padding-top: 4.5rem;
+        padding-bottom: 0;
+    }
+    header.masthead p {
+        font-size: 1.15rem;
+    }
+    header.masthead h1 {
+        font-size: 2.6rem;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    header.masthead {
+        height: 100vh;
+        min-height: 40rem;
+        padding-top: 4.5rem;
+        padding-bottom: 0;
+    }
+    header.masthead p {
+        font-size: 1.15rem;
+    }
+    header.masthead h1 {
+        font-size: 2.9rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    header.masthead {
+        height: 100vh;
+        min-height: 40rem;
+        padding-top: 4.5rem;
+        padding-bottom: 0;
+    }
+    header.masthead p {
+        font-size: 1.15rem;
+    }
+    header.masthead h1 {
+        font-size: 3.46rem;
     }
 }
 
@@ -9537,7 +9612,7 @@ p.paragrafo-st4 {
     }
 }
 
-@media (min-width: 1000px) and (max-width: 1200px) {
+@media (min-width: 900px) and (max-width: 1200px) {
     p.paragrafo-st9 {
         background-color: #fff;
         font-size: 2.4rem;
