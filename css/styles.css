@@ -9537,12 +9537,80 @@ h1.masthead-p {
     }
 }
 
-p.paragrafo-st4 {
-    font-size: clamp(0.5em, 0.5em + 1vw, 2em);
-    position: absolute;
-    top: 45%;
-    left: 35%;
-    transform: translateY(-50%);
+@media (min-width: 100px) and (max-width: 290px) {
+    p.paragrafo-st4 {
+        font-size: 0.1rem;
+        position: absolute;
+        top: 48%;
+        left: 40%;
+        transform: translateY(-50%);
+        text-align: initial;
+    }
+}
+
+@media (min-width: 290px) and (max-width: 390px) {
+    p.paragrafo-st4 {
+        font-size: 0.43rem;
+        position: absolute;
+        top: 48%;
+        left: 40%;
+        transform: translateY(-50%);
+        text-align: initial;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 500px) {
+    p.paragrafo-st4 {
+        font-size: 0.5rem;
+        position: absolute;
+        top: 48%;
+        left: 40%;
+        transform: translateY(-50%);
+        text-align: initial;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    p.paragrafo-st4 {
+        font-size: 0.7rem;
+        position: absolute;
+        top: 48%;
+        left: 40%;
+        transform: translateY(-50%);
+        text-align: initial;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    p.paragrafo-st4 {
+        font-size: 0.9rem;
+        position: absolute;
+        top: 43%;
+        left: 40%;
+        text-align: initial;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    p.paragrafo-st4 {
+        font-size: 1.2rem;
+        position: absolute;
+        top: 48%;
+        left: 40%;
+        transform: translateY(-50%);
+        text-align: initial;
+    }
+}
+
+@media (min-width: 1200px) {
+    p.paragrafo-st4 {
+        font-size: 2rem;
+        position: absolute;
+        top: 46%;
+        left: 35%;
+        transform: translateY(-50%);
+        text-align: initial;
+    }
 }
 
 /*caroulsel*/
