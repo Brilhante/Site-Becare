@@ -9383,12 +9383,81 @@ h1.masthead-p {
     text-align: initial;
 }
 
-p.paragrafo-st2 {
-    font-size: clamp(0.5em, 0.4em + 2vw, 2em);
-    position: absolute;
-    top: 80%;
-    left: 40%;
-    transform: translateY(-50%);
+@media (min-width: 100px) and (max-width: 290px) {
+    p.paragrafo-st2 {
+        font-size: 0.5rem;
+        position: absolute;
+        top: 80%;
+        left: 60%;
+        transform: translateY(-50%);
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 290px) and (max-width: 390px) {
+    p.paragrafo-st2 {
+        font-size: 0.7rem;
+        position: absolute;
+        top: 80%;
+        left: 60%;
+        transform: translateY(-50%);
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 500px) {
+    p.paragrafo-st2 {
+        font-size: 0.8rem;
+        position: absolute;
+        top: 80%;
+        left: 60%;
+        transform: translateY(-50%);
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    p.paragrafo-st2 {
+        font-size: 1rem;
+        position: absolute;
+        top: 80%;
+        left: 60%;
+        transform: translateY(-50%);
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    p.paragrafo-st2 {
+        font-size: 1.3rem;
+        position: absolute;
+        top: 70%;
+        left: 60%;
+        transform: translateY(-50%);
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    p.paragrafo-st2 {
+        font-size: 1.8rem;
+        position: absolute;
+        top: 80%;
+        left: 60%;
+        transform: translateY(-50%);
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    p.paragrafo-st2 {
+        font-size: 3rem;
+        position: absolute;
+        top: 80%;
+        left: 60%;
+        transform: translateY(-50%);
+        padding-right: 10px;
+    }
 }
 
 p.paragrafo-st3 {
