@@ -9251,6 +9251,21 @@ header.masthead h1 {
     }
 }
 
+@media (min-width: 10px) and (max-width: 290px) {
+    header.masthead {
+        height: 100vh;
+        min-height: 40rem;
+        padding-top: 4.5rem;
+        padding-bottom: 0;
+    }
+    header.masthead p {
+        font-size: 1.15rem;
+    }
+    header.masthead h1 {
+        font-size: 0.94rem;
+    }
+}
+
 @media (min-width: 290px) and (max-width: 390px) {
     header.masthead {
         height: 100vh;
