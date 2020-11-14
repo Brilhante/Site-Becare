@@ -9851,80 +9851,97 @@ h1.masthead-p {
     }
 }
 
-/*---------*/
-
-.st8a {
-    background: url("../assets/img/becare-site8a.png");
-    background-color: #fff;
-    background-size: contain;
-    padding-top: 50px;
-}
-
-@media (min-width: 100px) and (max-width: 290px) {
-    p.paragrafo-st9 {
-        background-color: #fff;
-        font-size: 0.7rem;
+@media (min-width: 100px) and (max-width: 300px) {
+    p.paragrafo-st8 {
+        font-size: 1rem;
         position: absolute;
-        top: 50px;
-        left: 10px;
-        color: #f50270;
+        top: -20%;
+        left: 22%;
+        transform: translateY(-50%);
+        padding-right: 10px;
+        padding-left: 10px;
+        border-bottom: 2px solid #3179c7;
+        padding-bottom: 2px;
+        line-height: 1.2;
     }
 }
 
-@media (min-width: 290px) and (max-width: 390px) {
-    p.paragrafo-st9 {
-        background-color: #fff;
-        font-size: 0.9rem;
+@media (min-width: 300px) and (max-width: 420px) {
+    p.paragrafo-st8 {
+        font-size: 1.4rem;
         position: absolute;
-        top: 50px;
-        left: 10px;
-        color: #f50270;
+        top: -20%;
+        left: 20%;
+        transform: translateY(-50%);
+        padding-right: 10px;
+        padding-left: 10px;
+        border-bottom: 2px solid #3179c7;
+        padding-bottom: 2px;
+        line-height: 1.2;
     }
 }
 
-@media (min-width: 400px) and (max-width: 600px) {
-    p.paragrafo-st9 {
-        background-color: #fff;
-        font-size: 1.1rem;
+@media (min-width: 500px) and (max-width: 700px) {
+    p.paragrafo-st8 {
+        font-size: 1.4rem;
         position: absolute;
-        top: 80px;
-        left: 10px;
-        color: #f50270;
+        top: -20%;
+        left: 30%;
+        transform: translateY(-50%);
+        padding-right: 10px;
+        padding-left: 10px;
+        border-bottom: 2px solid #3179c7;
+        padding-bottom: 2px;
+        line-height: 1.2;
     }
 }
 
-@media (min-width: 600px) and (max-width: 900px) {
-    p.paragrafo-st9 {
-        background-color: #fff;
+@media (min-width: 700px) and (max-width: 800px) {
+    p.paragrafo-st8 {
         font-size: 2rem;
         position: absolute;
-        top: 100px;
-        left: 10px;
-        color: #f50270;
+        top: -20%;
+        left: 25%;
+        transform: translateY(-50%);
+        padding-right: 40px;
+        padding-left: 40px;
+        border-bottom: 2px solid #3179c7;
+        padding-bottom: 2px;
+        line-height: 1.2;
     }
 }
 
-@media (min-width: 900px) and (max-width: 1200px) {
-    p.paragrafo-st9 {
-        background-color: #fff;
-        font-size: 2.4rem;
+@media (min-width: 800px) and (max-width: 1200px) {
+    p.paragrafo-st8 {
+        font-size: 2rem;
         position: absolute;
-        top: 150px;
-        left: 10px;
-        color: #f50270;
+        top: -20%;
+        left: 20%;
+        transform: translateY(-50%);
+        padding-right: 40px;
+        padding-left: 40px;
+        border-bottom: 2px solid #3179c7;
+        padding-bottom: 2px;
+        line-height: 1.2;
     }
 }
 
 @media (min-width: 1200px) {
-    p.paragrafo-st9 {
-        background-color: #fff;
-        font-size: 3.4rem;
+    p.paragrafo-st8 {
+        font-size: 2.6rem;
         position: absolute;
-        top: 220px;
-        left: 50px;
-        color: #f50270
+        top: -20%;
+        left: 15%;
+        transform: translateY(-50%);
+        padding-right: 80px;
+        padding-left: 80px;
+        border-bottom: 2px solid #3179c7;
+        padding-bottom: 2px;
+        line-height: 1.2;
     }
 }
+
+/*---------*/
 
 .linha {
     display: flex;
