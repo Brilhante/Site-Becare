@@ -183,11 +183,7 @@ a:not([href]):hover {
 .icons {
     margin: 0% -0.2%;
     height: 35px;
-}
-
-.icons-footer {
-    margin: 0% 0.2%;
-    height: 35px;
+    fill: #f50270;
 }
 
 .alinhamento {
