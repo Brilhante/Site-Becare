@@ -9464,10 +9464,10 @@ h1.masthead-p {
 
 @media (min-width: 1200px) {
     p.paragrafo-st2 {
-        font-size: 3rem;
+        font-size: 2.6rem;
         position: absolute;
-        top: 80%;
-        left: 60%;
+        top: 50%;
+        left: 50%;
         transform: translateY(-50%);
         padding-right: 10px;
         border-bottom: 4px solid #3179c7;
