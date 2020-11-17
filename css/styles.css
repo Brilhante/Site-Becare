@@ -63,6 +63,12 @@ body {
     height: auto;
 }
 
+.logo-footer {
+    max-width: 50px;
+    width: auto;
+    height: auto;
+}
+
 .favicon-logo {
     max-width: 75px;
     max-height: 75px;
@@ -186,9 +192,18 @@ a:not([href]):hover {
     fill: #f50270;
 }
 
+.icons-footer {
+    margin: 0% 0.2%;
+    height: 35px;
+}
+
 .alinhamento {
     text-align: end;
     width: 500px;
+}
+
+.top {
+    padding-top: 50px;
 }
 
 pre, code, kbd, samp {
@@ -532,6 +547,17 @@ pre code {
 .pre-scrollable {
     max-height: 340px;
     overflow-y: scroll;
+}
+.container-footer {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+}
+}
+.container1 {
+    position: relative;
+    width: 100%;
 }
 
 .container {
@@ -9345,14 +9371,13 @@ header.masthead h1 {
 .font-aurel {
     font-family: Aurel bold;
 }
+.font-aurel-footer {
+    font-family: Aurel bold;
+    font-size: 0.9rem;
+}
 
 .fluid {
     max-width: 100%;
-    width: 100%;
-}
-
-.container1 {
-    position: relative;
     width: 100%;
 }
 
@@ -9616,7 +9641,7 @@ h1.masthead-p {
         font-size: 2rem;
         position: absolute;
         top: 74%;
-        left: 40%;
+        left: 35%;
         transform: translateY(-50%);
         text-align: initial;
     }
