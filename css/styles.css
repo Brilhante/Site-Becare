@@ -6213,7 +6213,7 @@ a.bg-danger:hover, a.bg-danger:focus, button.bg-danger:hover, button.bg-danger:f
 }
 
 .bg-light {
-    background-color: #f8f9fa !important;
+    background-color: #fffbff !important;
 }
 
 a.bg-light:hover, a.bg-light:focus, button.bg-light:hover, button.bg-light:focus {
@@ -9880,7 +9880,7 @@ h1.masthead-p {
         transform: translateY(-50%);
         padding-right: 10px;
         padding-left: 10px;
-        border-bottom: 2px solid #3179c7;
+        border-bottom: 3px solid #3179c7;
         padding-bottom: 2px;
         line-height: 1.2;
     }
@@ -9895,7 +9895,7 @@ h1.masthead-p {
         transform: translateY(-50%);
         padding-right: 10px;
         padding-left: 10px;
-        border-bottom: 2px solid #3179c7;
+        border-bottom: 3px solid #3179c7;
         padding-bottom: 2px;
         line-height: 1.2;
     }
@@ -9910,7 +9910,7 @@ h1.masthead-p {
         transform: translateY(-50%);
         padding-right: 10px;
         padding-left: 10px;
-        border-bottom: 2px solid #3179c7;
+        border-bottom: 3px solid #3179c7;
         padding-bottom: 2px;
         line-height: 1.2;
     }
@@ -9925,7 +9925,7 @@ h1.masthead-p {
         transform: translateY(-50%);
         padding-right: 40px;
         padding-left: 40px;
-        border-bottom: 2px solid #3179c7;
+        border-bottom: 3px solid #3179c7;
         padding-bottom: 2px;
         line-height: 1.2;
     }
@@ -9940,7 +9940,7 @@ h1.masthead-p {
         transform: translateY(-50%);
         padding-right: 40px;
         padding-left: 40px;
-        border-bottom: 2px solid #3179c7;
+        border-bottom: 3px solid #3179c7;
         padding-bottom: 2px;
         line-height: 1.2;
     }
@@ -9955,7 +9955,7 @@ h1.masthead-p {
         transform: translateY(-50%);
         padding-right: 80px;
         padding-left: 80px;
-        border-bottom: 2px solid #3179c7;
+        border-bottom: 3px solid #3179c7;
         padding-bottom: 2px;
         line-height: 1.2;
     }
