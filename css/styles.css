@@ -63,10 +63,89 @@ body {
     height: auto;
 }
 
-.logo-footer {
-    max-width: 50px;
+@media (min-width: 100px) and (max-width: 290px) {
+    .logo-footer {
+      max-width: 30px;
+      width: auto;
+      height: auto;
+      position: absolute;
+      top: 82%;
+      left: 37%;
+      transform: translateY(-50%);
+   
+  }
+}
+@media (min-width: 290px) and (max-width: 390px) {
+    .logo-footer {
+      max-width: 30px;
+      width: auto;
+      height: auto;
+      position: absolute;
+      top: 87%;
+      left: 35%;
+      transform: translateY(-50%);
+   
+  }
+}
+@media (min-width: 390px) and (max-width: 500px) {
+   .logo-footer {
+    max-width: 30px;
     width: auto;
     height: auto;
+    position: absolute;
+    top: 90%;
+    left: 39%;
+    transform: translateY(-50%);
+   
+  }
+}
+@media (min-width: 500px) and (max-width: 600px) {
+    .logo-footer {
+      max-width: 40px;
+      width: auto;
+      height: auto;
+      position: absolute;
+      top: 90%;
+      left: 39%;
+      transform: translateY(-50%);
+   
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+    .logo-footer {
+      max-width: 50px;
+      width: auto;
+      height: auto;
+      position: absolute;
+      top: 93%;
+      left: 42%;
+      transform: translateY(-50%);
+   
+  }
+}
+@media (min-width: 900px) and (max-width: 1200px) {
+    .logo-footer {
+      max-width: 50px;
+      width: auto;
+      height: auto;
+      position: absolute;
+      top: 94%;
+      left: 43%;
+      transform: translateY(-50%);
+   
+  }
+}
+@media (min-width: 1200px){
+   .logo-footer {
+      max-width: 50px;
+      width: auto;
+      height: auto;
+      position: absolute;
+      top: 95%;
+      left: 45%;
+      transform: translateY(-50%);
+   
+  }
 }
 
 .favicon-logo {
@@ -549,9 +628,12 @@ pre code {
     overflow-y: scroll;
 }
 .container-footer {
+    width: 100%;
     justify-content: center;
     display: flex;
     flex-direction: row;
+    position: relative;
+    
 }
 
 .container1 {
@@ -9173,7 +9255,7 @@ hr.light {
 }
 
 .page-section {
-    padding: 8rem 0;
+    padding-top: 8rem ;
 }
 
 #mainNav {
@@ -9242,6 +9324,7 @@ hr.light {
         color: #de0977;
     }
 }
+
 
 header.masthead {
     padding-top: 10rem;
@@ -9366,15 +9449,170 @@ header.masthead h1 {
     font-family: Aurel bold;
     src: url(../assets/img/Aurel/Aurel\ bold.otf);
 }
-
+@media (min-width: 1200px){
 .font-aurel {
     font-family: Aurel bold;
+    }
 }
-.font-aurel-footer {
-    font-family: Aurel bold;
-    font-size: 0.9rem;
+@media (min-width: 100px) and (max-width: 290px) {
+    .font-aurel-footer {
+        font-family: Aurel bold;
+        font-size: 0.1rem;
+        position: absolute;
+        top: 82%;
+        left: 49%;
+        transform: translateY(-50%);
+        text-align: initial;
+        }
+}
+@media (min-width: 290px) and (max-width: 390px) {
+    .font-aurel-footer {
+        font-family: Aurel bold;
+        font-size: 0.1rem;
+        position: absolute;
+        top: 87%;
+        left: 44%;
+        transform: translateY(-50%);
+        text-align: initial;
+        }
+}
+@media (min-width: 390px) and (max-width: 500px) {
+    .font-aurel-footer {
+        font-family: Aurel bold;
+        font-size: 0.1rem;
+        position: absolute;
+        top: 90%;
+        left: 47%;
+        transform: translateY(-50%);
+        text-align: initial;
+        }
+}
+@media (min-width: 500px) and (max-width: 600px) {
+    .font-aurel-footer {
+        font-family: Aurel bold;
+        font-size: 0.4rem;
+        position: absolute;
+        top: 90%;
+        left: 47%;
+        transform: translateY(-50%);
+        text-align: initial;
+        }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+    .font-aurel-footer {
+        font-family: Aurel bold;
+        font-size: 0.5rem;
+        position: absolute;
+        top: 93%;
+        left: 49%;
+        transform: translateY(-50%);
+        text-align: initial;
+        }
+}
+@media (min-width: 900px) and (max-width: 1200px) {
+    .font-aurel-footer {
+        font-family: Aurel bold;
+        font-size: 0.5rem;
+        position: absolute;
+        top: 94%;
+        left: 48%;
+        transform: translateY(-50%);
+        text-align: initial;
+        }
+}
+@media (min-width: 1200px){
+    .font-aurel-footer {
+        font-family: Aurel bold;
+        font-size: 0.5rem;
+        position: absolute;
+        top: 95%;
+        left: 49%;
+        transform: translateY(-50%);
+        text-align: initial;
+    }
+}
+.posicao{
+    position: absolute;
+}
+@media (min-width: 100px) and (max-width: 290px) {
+    .alinhamento-phone{
+        transform: translate(0px, -40px);
+        font-size: 8px;
+        }
+}
+@media (min-width: 290px) and (max-width: 390px) {
+    .alinhamento-phone{
+        transform: translate(-20px, -30px);
+        font-size: 8px;
+        }
+}
+@media (min-width: 390px) and (max-width: 500px) {
+    .alinhamento-phone{
+        transform: translate(-20px, -20px);
+        font-size: 9px;
+        }
+}
+@media (min-width: 500px) and (max-width: 600px) {
+    .alinhamento-phone{
+        transform: translate(-20px, 10px);
+        font-size: 10px;
+        }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+    .alinhamento-phone{
+        transform: translate(4px, 80px);
+        }
+}
+@media (min-width: 900px) and (max-width: 1200px) {
+.alinhamento-phone{
+    transform: translate(-40px, 120px);
+    }
+}
+@media (min-width: 1200px) {
+    .alinhamento-phone{
+        transform: translate(-40px, 120px);
+        }
 }
 
+@media (min-width: 100px) and (max-width: 290px) {
+    .alinhamento-email{
+        transform: translate(15px, -40px);
+        font-size: 8px;
+        }
+}
+@media (min-width: 290px) and (max-width: 390px) {
+    .alinhamento-email{
+        transform: translate(30px, -30px);
+        font-size: 8px;
+        }
+}
+@media (min-width: 390px) and (max-width: 500px) {
+    .alinhamento-email{
+        transform: translate(30px, -20px);
+        font-size: 9px;
+        }
+}
+@media (min-width: 500px) and (max-width: 600px) {
+    .alinhamento-email{
+        transform: translate(30px, 10px);
+        font-size: 10px;
+        }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+    .alinhamento-email{
+        transform: translate(40px, 80px);
+        }
+}
+@media (min-width: 900px) and (max-width: 1200px) {
+.alinhamento-email{
+    transform: translate(60px, 120px);
+    }
+}
+@media (min-width: 1200px) {
+    .alinhamento-email{
+        transform: translate(100px, 120px);
+        }
+}
 .fluid {
     max-width: 100%;
     width: 100%;
@@ -9386,20 +9624,6 @@ img.border-f {
 
 h1.masthead-p {
     text-align: initial;
-}
-
-@media (min-width: 100px) and (max-width: 290px) {
-    p.paragrafo-st3 {
-        font-size: 0.5rem;
-        position: absolute;
-        top: 80%;
-        left: 60%;
-        transform: translateY(-50%);
-        padding-right: 10px;
-        border-bottom: 4px solid #3179c7;
-        padding-bottom: 2px;
-        line-height: 1.2;
-    }
 }
 
 @media (min-width: 100px) and (max-width: 290px) {
@@ -9871,13 +10095,22 @@ h1.masthead-p {
     }
 }
 
-@media (min-width: 100px) and (max-width: 300px) {
+@media (min-width: 100px) and (max-width: 290px) {
+    p.paragrafo-st8 {
+        font-size: 0.8rem;
+        transform: translateY(-450%);
+        padding-right: 10px;
+        padding-left: 10px;
+        border-bottom: 3px solid #3179c7;
+        padding-bottom: 2px;
+        line-height: 1.2;
+    }
+}
+
+@media (min-width: 290px) and (max-width: 390px) {
     p.paragrafo-st8 {
         font-size: 1rem;
-        position: absolute;
-        top: -20%;
-        left: 22%;
-        transform: translateY(-50%);
+        transform: translateY(-350%);
         padding-right: 10px;
         padding-left: 10px;
         border-bottom: 3px solid #3179c7;
@@ -9886,42 +10119,35 @@ h1.masthead-p {
     }
 }
 
-@media (min-width: 300px) and (max-width: 420px) {
+@media (min-width: 390px) and (max-width: 500px) {
+    p.paragrafo-st8 {
+        font-size: 1rem;
+        transform: translateY(-300%);
+        padding-right: 10px;
+        padding-left: 10px;
+        border-bottom: 3px solid #3179c7;
+        padding-bottom: 2px;
+        line-height: 1.2;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
     p.paragrafo-st8 {
         font-size: 1.4rem;
-        position: absolute;
+        transform: translateY(-200%);
+        padding-right: 10px;
+        padding-left: 10px;
+        border-bottom: 3px solid #3179c7;
+        padding-bottom: 2px;
+        line-height: 1.2;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    p.paragrafo-st8 {
+        font-size: 1.5rem;
         top: -20%;
         left: 20%;
-        transform: translateY(-50%);
-        padding-right: 10px;
-        padding-left: 10px;
-        border-bottom: 3px solid #3179c7;
-        padding-bottom: 2px;
-        line-height: 1.2;
-    }
-}
-
-@media (min-width: 500px) and (max-width: 700px) {
-    p.paragrafo-st8 {
-        font-size: 1.4rem;
-        position: absolute;
-        top: -20%;
-        left: 30%;
-        transform: translateY(-50%);
-        padding-right: 10px;
-        padding-left: 10px;
-        border-bottom: 3px solid #3179c7;
-        padding-bottom: 2px;
-        line-height: 1.2;
-    }
-}
-
-@media (min-width: 700px) and (max-width: 800px) {
-    p.paragrafo-st8 {
-        font-size: 2rem;
-        position: absolute;
-        top: -20%;
-        left: 25%;
         transform: translateY(-50%);
         padding-right: 40px;
         padding-left: 40px;
@@ -9930,11 +10156,9 @@ h1.masthead-p {
         line-height: 1.2;
     }
 }
-
-@media (min-width: 800px) and (max-width: 1200px) {
+@media (min-width: 900px) and (max-width: 1200px) {
     p.paragrafo-st8 {
         font-size: 2rem;
-        position: absolute;
         top: -20%;
         left: 20%;
         transform: translateY(-50%);
@@ -9949,7 +10173,6 @@ h1.masthead-p {
 @media (min-width: 1200px) {
     p.paragrafo-st8 {
         font-size: 2.6rem;
-        position: absolute;
         top: -20%;
         left: 15%;
         transform: translateY(-50%);
