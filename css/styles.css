@@ -9542,7 +9542,7 @@ header.masthead h1 {
 }
 @media (min-width: 290px) and (max-width: 390px) {
     .alinhamento-phone{
-        transform: translate(-20px, -30px);
+        transform: translate(-20px, -50px);
         font-size: 8px;
         }
 }
@@ -9582,7 +9582,7 @@ header.masthead h1 {
 }
 @media (min-width: 290px) and (max-width: 390px) {
     .alinhamento-email{
-        transform: translate(30px, -30px);
+        transform: translate(30px, -50px);
         font-size: 8px;
         }
 }
@@ -10110,7 +10110,7 @@ h1.masthead-p {
 @media (min-width: 290px) and (max-width: 390px) {
     p.paragrafo-st8 {
         font-size: 1rem;
-        transform: translateY(-350%);
+        transform: translateY(-400%);
         padding-right: 10px;
         padding-left: 10px;
         border-bottom: 3px solid #3179c7;
